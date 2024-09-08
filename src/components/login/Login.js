@@ -21,7 +21,7 @@ const Login = () => {
 
     // API call to check credentials
     try {
-      const response = await fetch('https://localhost:7162/User/CheckCredentials', {
+      const response = await fetch('https://192.168.137.1:7162/User/CheckCredentials', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
